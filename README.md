@@ -3,7 +3,7 @@ Cloud function that returns the caller's IP-address.
 
 Deploy with:
 
-	gcloud functions deploy whatismyip --runtime go111 --allow-unauthenticated --trigger-http \
+	gcloud functions deploy whatismyip --runtime go113 --allow-unauthenticated --trigger-http \
 	--entry-point WhatIsMyIp --memory 128MB --region europe-west2
 
 Test with:
